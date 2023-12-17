@@ -1,0 +1,78 @@
+/* app.component.css */
+.content
+  {
+        margin-left: 80px;
+        margin-top: 150px;
+        width: 30%;
+  }
+
+  .p{
+    font-size: 30px;
+  }
+
+
+  .circle-container {
+    margin-left: 800px; /* Align to the right */
+    margin-right: 200px; /* Add some space from the right (adjust as needed) */
+    margin-top:100px; /* Vertically center the circle-container */
+    margin-bottom: auto; /* Vertically center the circle-container */
+  
+    
+  
+    width: 550px; /* Adjust the width and height as needed for your circle */
+    height: 550px;
+    border: 20px solid #b1c2aa; /* Adjust the border color and thickness */
+    border-radius: 50%; /* Create a circle using border-radius */
+    overflow: hidden; /* Ensure the image is clipped to the circle */
+
+    position: fixed; /* Allow absolute positioning of child elements */
+
+    z-index: 1; /* Set a lower z-index for .circle-container1 */
+  
+  }
+  
+  
+  .circle-container img {
+    width: 100%; /* Make the image fill the entire circle container */
+    height: 100%; /* Maintain the aspect ratio of the image */
+    border-radius: 50%; /* Ensure the image takes on the circular shape */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+  }
+
+  
+  .circle-container2 {
+
+    margin-left: 1200px; /* Align to the right */
+    margin-right: 0px; /* Add some space from the right (adjust as needed) */
+    margin-top:300px; /* Vertically center the circle-container */
+    margin-bottom: auto; /* Vertically center the circle-container */
+
+    position: fixed; /* or use 'absolute' based on your layout requirements */
+    /* top: 50%; Center vertically */
+    /* right: 20px; /* Adjust the distance from the right */
+    
+    z-index: 999; /* Set a high z-index to ensure it appears on top of other elements */
+  
+    
+     
+    width: 450px; /* Adjust the width and height as needed for your circle */
+    height: 450px;
+    border: 15px solid #b1c2aa; /* Adjust the border color and thickness */
+    border-radius: 50%; /* Create a circle using border-radius */
+    overflow: hidden; /* Ensure the image is clipped to the circle */
+    
+  }
+  
+  .circle-container2 img {
+    width: 100%; /* Make the image fill the entire circle container */
+    height: 100%; /* Maintain the aspect ratio of the image */
+    border-radius: 50%; /* Ensure the image takes on the circular shape */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+  }
+
+  
+
+  .home {
+    display: inline-flex;
+    /* Allow main content to grow and take up available space */
+  }

@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #98b190; /* Example background color */
+    color: #fff; /* Example text color */
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    gap: 40px;
+  }
+  nav a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+  
+  }
+
+  div a{
+      font-size: 25px;   
+  }  
+  .spacer1 {
+    flex-grow: 0.1;
+  }
+  .spacer2 {
+    flex-grow: 1.5;
+  }
+  .spacer3 {
+    flex-grow: 0.2;
+  }
+  
+  .auth-section {
+    display: flex;
+    gap: 10px;
+  }
+
+  .auth-section a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .auth-section button i.fa-bars {
+    font-size: 24px; /* Adjust the size as needed */
+  }
+  
+
+  /* search-bar.component.css */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 3px solid white; /* Adjust the border thickness */
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    background: transparent;    
+    width: 80%;
+    margin-right: 10px; /* Adjust spacing between input and button */
+  }
+  
+  /* Styling for the placeholder text */
+  .search-input::placeholder {
+    color: white;
+  }
+  
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  .search-icon {
+    color: white;
+    opacity: 1; 
+  }
+
+
+  
